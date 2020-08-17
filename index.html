@@ -1,112 +1,70 @@
 <!DOCTYPE html>
 <html>
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box}
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
-}
+<head>
+  <title>Responsive Parallax Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-input[type=text]:focus, input[type=password]:focus {
-  background-color: #ddd;
-  outline: none;
-}
-
-hr {
-  border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-button:hover {
-  opacity:1;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  padding: 14px 20px;
-  background-color: #f44336;
-}
-
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-
-/* Add padding to container elements */
-.container {
-  padding: 16px;
-}
-
-/* Clear floats */
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-     width: 100%;
-  }
-}
-</style>
 <body>
 
-<form method="POST" action="user.php" style="border:1px solid #ccc">
-  <div class="container">
-    <h1>FEEDBACK FORM</h1>
-    <p>Welcome to MONSTER WORLD.</p>
-    <hr>
-
-    <label for="email"><b>Name</b></label>
-    <input type="text" placeholder="Enter your name" name="name" required>
-
-    <label for="email"><b>How was CV</b></label>
-    <input type="text"  name="cv" required>
-
-    <label for="email"><b>any message for improvement</b></label>
-    <input type="text"  name="modification" required>
-
-   
-
-    <label for="email"><b>Email</b></label>
-    <input type="text" placeholder="Enter your Email" name="gmail" required>
-
-    
-    
-    <label>
-      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-    </label>
-    
-    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-    <div class="clearfix">
-      <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+  <div class="parallax1">
+    <div class="heading">
+      Parallax
     </div>
   </div>
-</form>
 
+  <section>
+    <h1>Parallax Website Tutorial</h1>
+    <h3>Learn how to create a parallax website using HTML5 and CSS3.</h3>
+    <div class="two-col">
+      <p>Parallax is a displacement or difference in the apparent position of an object viewed along two different lines
+        of sight, and is measured by the angle or semi-angle of inclination between those two lines. The term is derived
+        from Ancient Greek parallaxis, meaning 'alternation'. Due to foreshortening, nearby objects show a larger
+        parallax than farther objects when observed from different positions, so parallax can be used to determine
+        distances.</p>
+    </div>
+    <div class="two-col">
+      <p>Parallax is a displacement or difference in the apparent position of an object viewed along two different lines
+        of sight, and is measured by the angle or semi-angle of inclination between those two lines. The term is derived
+        from Ancient Greek parallaxis, meaning 'alternation'. Due to foreshortening, nearby objects show a larger
+        parallax than farther objects when observed from different positions, so parallax can be used to determine
+        distances.</p>
+    </div>
+  </section>
+
+  <div class="parallax2">
+    <div class="heading-sm">
+      Fire Works
+    </div>
+  </div>
+
+  <section class="dark">
+    <h2>How Parallax Works</h2>
+    <p>Parallax also affects optical instruments such as rifle scopes, binoculars, microscopes, and twin-lens reflex
+      cameras that view objects from slightly different angles. Many animals, including humans, have two eyes with
+      overlapping visual fields that use parallax to gain depth perception; this process is known as stereopsis. In
+      computer vision the effect is used for computer stereo vision, and there is a device called a parallax rangefinder
+      that uses it to find range, and in some variations also altitude to a target.</p>
+  </section>
+
+  <div class="parallax3">
+  </div>
+
+  <div class="dark">
+    <h3>Fixed Background Scrolling</h3>
+    <div class="two-col">
+      <p>Parallax is a displacement or difference in the apparent position of an object viewed along two different lines
+        of sight, and is measured by the angle or semi-angle of inclination between those two lines.</p>
+    </div>
+    <div class="two-col">
+      <p>Parallax is a displacement or difference in the apparent position of an object viewed along two different lines
+        of sight, and is measured by the angle or semi-angle of inclination between those two lines.</p>
+    </div>
+  </div>
+
+  <div class="parallax4">
+  </div>
 </body>
+
 </html>
