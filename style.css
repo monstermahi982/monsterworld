@@ -9,7 +9,7 @@ body, html {
   text-align: center;
 }
 .parallax1 {
-  background: url("https://monstermahi982.github.io/monsterworld/first.jpeg");
+  background: url(monstermahi982.github.io/monsterworld/first.jpeg);
   min-height: 100%;
 }
 .parallax2 {
