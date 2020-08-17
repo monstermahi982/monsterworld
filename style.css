@@ -9,15 +9,15 @@ body, html {
   text-align: center;
 }
 .parallax1 {
-  background: url(img/first.jpeg);
+  background: url(first.jpeg);
   min-height: 100%;
 }
 .parallax2 {
-  background: url(img/second.jpeg);
+  background: url(second.jpeg);
   min-height: 60%;
 }
 .parallax3 {
-  background: url(img/third.jpeg);
+  background: url(third.jpeg);
   min-height: 40%;
 }
 .parallax4 {
